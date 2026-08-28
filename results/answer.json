@@ -1,0 +1,11 @@
+{
+  "answer": {
+    "theta_deg": 30.0,
+    "theta_rad": 0.5235987755982988,
+    "M": 0.03,
+    "X": 55.0,
+    "L1_proj": 2.0556319174303894e-05,
+    "desmos": "\\left(t*\\cos(0.523598775598)-e^{0.03\\left|t\\right|}\\cdot\\sin(0.3t)\\sin(0.523598775598)+55,42+t*\\sin(0.523598775598)+e^{0.03\\left|t\\right|}\\cdot\\sin(0.3t)\\cos(0.523598775598)\\right)"
+  },
+  "note": "All solvers (DE, dual annealing, basin hopping, Nelder-Mead, L-BFGS-B) converged to 30 deg, 0.03, 55. Residual is floating-point noise."
+}

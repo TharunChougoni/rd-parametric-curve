@@ -11,14 +11,13 @@ Recover the three unknown parameters of a planar parametric curve from
 | M | 0.03 |
 | X | 55 |
 
-Desmos (paste as a parametric):
+Desmos: https://www.desmos.com/calculator/w1frkudmfq
 
 ```
-\left(t*\cos(0.523598775598)-e^{0.03\left|t\right|}\cdot\sin(0.3t)\sin(0.523598775598)+55,42+t*\sin(0.523598775598)+e^{0.03\left|t\right|}\cdot\sin(0.3t)\cos(0.523598775598)\right)
+\left(t\cos(\frac{\pi}{6})-e^{0.03\left|t\right|}\sin(0.3t)\sin(\frac{\pi}{6})+55,42+t\sin(\frac{\pi}{6})+e^{0.03\left|t\right|}\sin(0.3t)\cos(\frac{\pi}{6})\right)
 ```
 
-Domain: `6 ≤ t ≤ 60`  
-Template: https://www.desmos.com/calculator/rfj91yrxob
+Domain: `6 ≤ t ≤ 60`
 
 Mean L1 from each data point to this model: **2.06e-5** (floating-point noise; the CSV is a clean sample of this curve).
 
